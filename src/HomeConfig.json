@@ -1,0 +1,7 @@
+{
+    "products": [
+      { "id": 1, "name": "Flex Design 1", "description": "Perfect for advertising.", "price": "500" },
+      { "id": 2, "name": "Flex Design 2", "description": "Best for events.", "price": "700" }
+    ]
+  }
+  
