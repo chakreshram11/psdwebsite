@@ -1,10 +1,22 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import HomeConfig from '../HomeConfig.json'; // Import the JSON file
+import HomeConfig from '../HomeConfig.json'; // Import homeConfig.json
 
 const ProductDetail = () => {
-  const { id } = useParams();
-  const product = HomeConfig.products.find(p => p.id === parseInt(id)); // Fetch product from JSON
+  const { id } = useParams(); // Get product ID from URL parameters
+  const { categories } = HomeConfig; // Extract categories from homeConfig
+
+  // Find the product by ID within the categories
+  let product;
+  categories.forEach(category => {
+    const foundProduct = category.products.find(p => p.id === parseInt(id));
+    if (foundProduct) product = foundProduct;
+  });
+
+  // If the product is not found, handle it
+  if (!product) {
+    return <p>Product not found</p>;
+  }
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent(`Hello, I'm interested in the PSD file: ${product.name}.`);

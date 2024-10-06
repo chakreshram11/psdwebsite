@@ -1,7 +1,19 @@
 {
-    "products": [
-      { "id": 1, "name": "Flex Design 1", "description": "Perfect for advertising.", "price": "500" },
-      { "id": 2, "name": "Flex Design 2", "description": "Best for events.", "price": "700" }
-    ]
-  }
-  
+  "categories": [
+    {
+      "id": 1,
+      "name": "Flex Banners",
+      "products": [
+        { "id": 1, "name": "Flex Design 1", "description": "Perfect for advertising.", "price": "500" },
+        { "id": 2, "name": "Flex Design 2", "description": "Best for events.", "price": "700" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Event Posters",
+      "products": [
+        { "id": 3, "name": "Poster Design 1", "description": "Perfect for event promotion.", "price": "400" }
+      ]
+    }
+  ]
+}

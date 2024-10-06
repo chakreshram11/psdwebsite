@@ -1,23 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import HomeConfig from '../HomeConfig.json'; // Import the JSON file
+import homeConfig from '../HomeConfig.json';
+import ProductCard from '../components/ProductCard'; // Import the ProductCard component
 
 const HomeScreen = () => {
-  const products = HomeConfig.products; // Load the products from the JSON file
+  const { categories } = homeConfig; // Get categories from the JSON
+
+  // Flatten the product list from all categories
+  const allProducts = categories.reduce((acc, category) => {
+    return [...acc, ...category.products];
+  }, []);
 
   return (
-    <div className="p-8">
-      <h1 className="text-3xl font-bold mb-6">Available PSD Files</h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        {products.map(product => (
-          <div key={product.id} className="border p-4 rounded-lg shadow-lg">
-            <h2 className="text-xl font-semibold">{product.name}</h2>
-            <p>{product.description}</p>
-            <p className="text-gray-600">Price: ₹{product.price}</p>
-            <Link to={`/product/${product.id}`} className="text-blue-500 mt-4 inline-block">
-              View Details
-            </Link>
-          </div>
+    <div className="container mx-auto p-8">
+      <h1 className="text-4xl font-extrabold mb-8 text-center text-gray-900">Available PSD Files</h1>
+
+      {/* Display All Products */}
+      <h2 className="text-3xl font-semibold mb-6 text-gray-700">All Products</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        {allProducts.map(product => (
+          <ProductCard key={product.id} product={product} />
         ))}
       </div>
     </div>
