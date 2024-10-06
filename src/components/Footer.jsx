@@ -22,10 +22,10 @@ function Footer() {
             <h4 className="text-xl font-bold mb-4">Quick Links</h4>
             <ul className="text-gray-400">
               <li className="mb-2">
-                <a href="/about" className="hover:text-white">About Us</a>
+                <a href="/" className="hover:text-white">Home</a>
               </li>
               <li className="mb-2">
-                <a href="/products" className="hover:text-white">Our Products</a>
+                <a href="/about" className="hover:text-white">About Us</a>
               </li>
               <li className="mb-2">
                 <a href="/contact" className="hover:text-white">Contact Us</a>

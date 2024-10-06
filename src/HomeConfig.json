@@ -4,16 +4,69 @@
       "id": 1,
       "name": "Flex Banners",
       "products": [
-        { "id": 1, "name": "Flex Design 1", "description": "Perfect for advertising.", "price": "500" },
-        { "id": 2, "name": "Flex Design 2", "description": "Best for events.", "price": "700" }
+        {
+          "id": 1,
+          "name": "Flex Design 1",
+          "description": "Perfect for advertising.",
+          "price": "50",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166"
+        },        
+        {
+          "id": 2,
+          "name": "Flex Design 2",
+          "description": "Best for events.",
+          "price": "75",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166"
+        }
       ]
     },
     {
       "id": 2,
       "name": "Event Posters",
       "products": [
-        { "id": 3, "name": "Poster Design 1", "description": "Perfect for event promotion.", "price": "400" }
+        { 
+          "id": 3, 
+          "name": "Poster Design 1", 
+          "description": "Perfect for event promotion.", 
+          "price": "100",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166" 
+        },
+        { 
+          "id": 4, 
+          "name": "Poster Design 2", 
+          "description": "Perfect for event promotion.", 
+          "price": "150",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166" 
+        },
+        { 
+          "id": 5, 
+          "name": "Poster Design 3", 
+          "description": "Perfect for event promotion.", 
+          "price": "80",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166" 
+        },
+        { 
+          "id": 6, 
+          "name": "Poster Design 4", 
+          "description": "Perfect for event promotion.", 
+          "price": "40",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166" 
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Social Media Graphics",
+      "products":[
+        {
+          "id": 7,
+          "name": "Facebook Cover 1",
+          "description": "Perfect for Facebook cover.",
+          "price": "20",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166"
+        }
       ]
     }
+
   ]
 }
