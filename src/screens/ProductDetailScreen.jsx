@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import HomeConfig from '../HomeConfig.json'; // Import homeConfig.json
+import { useNavigate } from 'react-router-dom';
+
 
 const ProductDetailScreen = () => {
   const { id } = useParams(); // Get product ID from URL parameters
   const { categories } = HomeConfig; // Extract categories from homeConfig
-
+  const navigate = useNavigate(); 
   // State for the image modal
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -37,6 +39,15 @@ const ProductDetailScreen = () => {
 
   return (
     <div className="container mx-auto p-8">
+      <div className="mb-8 text-left">
+        <button 
+          onClick={() => navigate(-1)} 
+          className="border-4 border-sky-500 rounded-lg bg-white p-2 text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200"
+        >
+          Back
+        </button>
+      </div>
+
       <div className="flex flex-col md:flex-row md:space-x-10">
         <div className="md:w-1/2 mb-8 md:mb-0">
           <img 

@@ -64,8 +64,43 @@
           "description": "Perfect for Facebook cover.",
           "price": "20",
           "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166"
+        },
+        {
+          "id": 8,
+          "name": "Facebook Cover 2",
+          "description": "Perfect for Facebook cover.",
+          "price": "30",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166"
+        },
+        {
+          "id": 9,
+          "name": "Facebook Cover 3",
+          "description": "Perfect for Facebook cover.",
+          "price": "40",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166"
         }
       ]
+    },
+    {
+      "id": 4,
+      "name": "Business Cards",
+      "products":[
+        {
+          "id": 10,
+          "name": "Business Card 1",
+          "description": "Perfect for business promotion.",
+          "price": "30",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166"
+        },
+        {
+          "id": 11,
+          "name": "Business Card 2",
+          "description": "Perfect for business promotion.",
+          "price": "40",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166"
+        }
+      ]
+        
     }
 
   ]

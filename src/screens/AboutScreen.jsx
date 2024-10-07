@@ -1,8 +1,20 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-function AboutScreen() {
+
+const AboutScreen = () => {
+  const navigate = useNavigate(); 
+
   return (
     <div className="container mx-auto p-8">
+      <div className="mb-8 text-left">
+        <button 
+          onClick={() => navigate(-1)} 
+          className="border-4 border-sky-500 rounded-lg bg-white p-2 text-lg font-medium text-gray-700 hover:text-blue-600 transition-colors duration-200"
+        >
+          Back
+        </button>
+      </div>
       <h1 className="text-4xl font-extrabold text-center mb-8 text-gray-900">About Us</h1>
       <div className="text-lg text-gray-700 leading-relaxed">
         <p className="mb-6">
