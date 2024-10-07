@@ -17,6 +17,13 @@
           "description": "Best for events.",
           "price": "75",
           "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166"
+        },
+        {
+          "id": 3,
+          "name": "Flex Design 3",
+          "description": "Perfect for advertising.",
+          "price": "100",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166"
         }
       ]
     },

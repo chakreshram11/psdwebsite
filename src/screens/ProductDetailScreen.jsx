@@ -74,28 +74,33 @@ const ProductDetailScreen = () => {
       </div>
 
       {/* Similar Products Section */}
-      <div className="mt-12">
-        <h2 className="text-3xl font-bold text-gray-800 mb-6">Similar Designs</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {similarProducts.map(similarProduct => (
-            <div key={similarProduct.id} className="border rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <img 
-                src={similarProduct.imageUrl} 
-                alt={similarProduct.name} 
-                className="w-full h-48 object-cover" 
-              />
-              <div className="p-4">
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">{similarProduct.name}</h3>
-                <p className="text-gray-700 mb-4">{similarProduct.description}</p>
-                <p className="text-lg font-semibold text-green-600 mb-4">Price: ₹{similarProduct.price}</p>
-                <Link to={`/product/${similarProduct.id}`} className="text-blue-500 font-semibold hover:underline">
-                  View Details
-                </Link>
-              </div>
-            </div>
-          ))}
+<div className="mt-12">
+  <h2 className="text-3xl font-bold text-gray-800 mb-6">Similar Designs</h2>
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    {similarProducts.map(similarProduct => (
+      <Link 
+        to={`/product/${similarProduct.id}`} 
+        key={similarProduct.id} 
+        className="border rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
+      >
+        <img 
+          src={similarProduct.imageUrl} 
+          alt={similarProduct.name} 
+          className="w-full h-48 object-cover" 
+        />
+        <div className="p-4">
+          <h3 className="text-xl font-semibold text-gray-900 mb-2">{similarProduct.name}</h3>
+          <p className="text-gray-700 mb-4">{similarProduct.description}</p>
+          <p className="text-lg font-semibold text-green-600 mb-4">Price: ₹{similarProduct.price}</p>
+          <span className="text-blue-500 font-semibold hover:underline">
+            View Details
+          </span>
         </div>
-      </div>
+      </Link>
+    ))}
+  </div>
+</div>
+
 
       {/* Modal for Enlarged Image */}
       {isModalOpen && (

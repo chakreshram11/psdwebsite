@@ -19,7 +19,7 @@ function Header() {
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-6">
+        <nav className="hidden md:flex space-x-6 font-bold">
           <Link to="/" className="hover:text-gray-300">Home</Link>
           <div className="relative group">
             <span className="hover:text-gray-300 cursor-pointer">Categories</span>

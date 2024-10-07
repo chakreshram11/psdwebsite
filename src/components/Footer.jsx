@@ -8,13 +8,13 @@ function Footer() {
           
           {/* Company Info */}
           <div>
-            <h4 className="text-xl font-bold mb-4">Sri Aditya Enterprises</h4>
+            <h4 className="text-xl font-bold mb-4">Ganesh Digital Works</h4>
             <p className="text-gray-400">
-              Your trusted partner for high-quality pipes and fittings.
+            Your trusted partner for high-quality PSD files from Digital Works.
             </p>
             <p className="mt-4 text-gray-400">123, Industrial Area, City, State, ZIP</p>
             <p className="text-gray-400">Phone: +91 9989387180</p>
-            <p className="text-gray-400">Email: info@sriadityaenterprises.com</p>
+            <p className="text-gray-400">Email: ganeshflexmmd@gmail.com</p>
           </div>
 
           {/* Quick Links */}
@@ -75,7 +75,7 @@ function Footer() {
         </div>
 
         <div className="mt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Sri Aditya Enterprises. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Ganesh Digitals. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
