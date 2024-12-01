@@ -32,28 +32,28 @@
       "name": "Event Posters",
       "products": [
         { 
-          "id": 3, 
+          "id": 4, 
           "name": "Poster Design 1", 
           "description": "Perfect for event promotion.", 
           "price": "100",
           "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166" 
         },
         { 
-          "id": 4, 
+          "id": 5, 
           "name": "Poster Design 2", 
           "description": "Perfect for event promotion.", 
           "price": "150",
           "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166" 
         },
         { 
-          "id": 5, 
+          "id": 6, 
           "name": "Poster Design 3", 
           "description": "Perfect for event promotion.", 
           "price": "80",
           "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166" 
         },
         { 
-          "id": 6, 
+          "id": 7, 
           "name": "Poster Design 4", 
           "description": "Perfect for event promotion.", 
           "price": "40",
@@ -66,21 +66,21 @@
       "name": "Social Media Graphics",
       "products":[
         {
-          "id": 7,
+          "id": 8,
           "name": "Facebook Cover 1",
           "description": "Perfect for Facebook cover.",
           "price": "20",
           "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166"
         },
         {
-          "id": 8,
+          "id": 9,
           "name": "Facebook Cover 2",
           "description": "Perfect for Facebook cover.",
           "price": "30",
           "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166"
         },
         {
-          "id": 9,
+          "id": 10,
           "name": "Facebook Cover 3",
           "description": "Perfect for Facebook cover.",
           "price": "40",
@@ -93,14 +93,14 @@
       "name": "Business Cards",
       "products":[
         {
-          "id": 10,
+          "id": 11,
           "name": "Business Card 1",
           "description": "Perfect for business promotion.",
           "price": "30",
           "imageUrl": "https://firebasestorage.googleapis.com/v0/b/psdwebsite-ae36e.appspot.com/o/2.jpg?alt=media&token=794f2c15-c652-4d63-a49a-a19369096166"
         },
         {
-          "id": 11,
+          "id": 12,
           "name": "Business Card 2",
           "description": "Perfect for business promotion.",
           "price": "40",

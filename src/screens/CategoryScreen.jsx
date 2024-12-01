@@ -14,7 +14,7 @@ const CategoryScreen = () => {
   }
 
   return (
-    <div className="container mx-auto p-8">
+    <div className="container mx-auto p-8 mt-9">
       <div className="mb-8 text-left">
         <button 
           onClick={() => navigate(-1)} 

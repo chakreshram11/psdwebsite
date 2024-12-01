@@ -11,7 +11,7 @@ const HomeScreen = () => {
   }, []);
 
   return (
-    <div className="container mx-auto p-8">
+    <div className="container mx-auto p-8 mt-9">
       <h1 className="text-4xl font-extrabold mb-8 text-center text-gray-900">Available PSD Files</h1>
 
       {/* Display All Products */}

@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <Header />
-      <Routes>
+      <Routes> 
         <Route path="/" element={<HomeScreen />} />
         <Route path="/category/:id" element={<CategoryScreen />} />
         <Route path="/product/:id" element={<ProductDetail />} />
